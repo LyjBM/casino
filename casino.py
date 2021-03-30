@@ -42,11 +42,11 @@ while i != 0:
 		argent = argent + gain
 		print (f"{case}\n\n Magnifique !! Vous triplez votre mise et remportez {gain} euros.")
 	elif numero % 2 == 0 and case % 2 == 0 :
-		gain =  mise + math.ceil(mise/2)
+		gain =  math.ceil(mise/2)
 		argent = argent + gain
 		print (f"{case}\n\n Génial !! Votre case et la chance sont toutes les deux de couleur noir ! Vous remportez {gain} euros.")
 	elif numero % 2 != 0 and case % 2 != 0 :
-		gain =  mise + math.ceil(mise/2)
+		gain =  math.ceil(mise/2)
 		argent = argent + gain
 		print (f"{case}\n\n Génial !! Votre case et la chance sont toutes les deux de couleur rouge ! Vous remportez {gain} euros.")
 	else :
