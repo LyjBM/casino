@@ -52,6 +52,11 @@ while i != 0:
 	else :
 		argent = argent - mise
 		print (f"{case}\n\n Vous avez perdu {mise} euros.")
+		if argent == 0 :
+			i = 1
+			print ("Vous ne pouvez plus jouer.\n==================== A bientôt ====================\n\n\n")
+		else:
+			pass
 		
 	relance = input ("\n\nVoulez-vous rejouer ? [o|n] ")
 	j = 1
