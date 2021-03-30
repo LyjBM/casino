@@ -55,6 +55,7 @@ while i != 0:
 		if argent == 0 :
 			i = 1
 			print ("Vous ne pouvez plus jouer.\n==================== A bientôt ====================\n\n\n")
+			break
 		else:
 			pass
 		
